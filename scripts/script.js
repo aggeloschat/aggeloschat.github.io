@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
   playgroundItems.forEach(item => {
     item.addEventListener('click', function () {
       const demoType = this.getAttribute('data-demo');
-      launchDemo(demoType);
+      launchDemoUpdate(demoType);
     });
   });
 });
@@ -107,6 +107,17 @@ function animateSkillBubbles() {
   }
 }
 
+
+function launchDemoUpdate(demoType) {
+  // This would be expanded to show different interactive demos
+  alert(`Upcoming ${demoType} demo! More info soon.`);
+
+  // In a real implementation, this would:
+  // 1. Create an overlay/modal
+  // 2. Load the appropriate interactive demo
+  // 3. For games: might use an iframe or canvas element
+  // 4. For coding demos: might use a code editor component
+}
 
 function launchDemo(demoType) {
   // This would be expanded to show different interactive demos
