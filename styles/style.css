@@ -288,6 +288,16 @@ nav a:hover::after {
     gap: 1rem;
 }
 
+.bubble-musi {
+    display: fixed;
+    /* padding: 0.5rem 1rem; */
+    background-color: rgba(100, 255, 218, 0.1);
+    border-radius: 20px;
+    color: var(--primary);
+    font-size: 0.9rem;
+    /* position: relative; */
+    overflow: hidden;
+}
 
 .bubble {
     display: inline-block;
