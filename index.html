@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
+
+
 <body>
   <header class="glass">
     <div class="lang-toggle">
@@ -30,18 +32,22 @@
       <canvas id="matrixCanvas"></canvas>
       <div class="hero-content">
         <br><br><br><br>
-        <h1 class="typewriter">Aggelos K. Chatzopoulos</h1>
+        <h1 class="typewriter">Aggelos Chatzopoulos</h1>
         <h2>Software Engineer & Developer</h2>
         <div class="console-effect">
           <span class="prompt">> </span>
           <span class="command">npm start --passion --creativity</span>
         </div>
-        <a href="#projects" class="cta-button">View My Work</a>
+        <a href="#projects" class="cta-button hover-button">View My Work</a>
       </div>
       <div class="scroll-hint">
         <i class="fas fa-chevron-down"></i>
       </div>
     </section>
+
+<button id="sound-toggle" class="bubble">🎧 Play</button>
+
+
 
     <section id="about" class="section">
       <h2 class="section-title"><span class="highlight">001.</span> About Me</h2>
@@ -140,7 +146,7 @@
         <!--   </div> -->
         <!-- </div> -->
 
-        <div class="project-card">
+        <div class="project-card hover-button">
         <div class="project-header">
           <h3>Test Project</h3>
           <div class="project-links">
@@ -157,7 +163,7 @@
 
         <!-- More project cards -->
       </div>
-      <a href="projects/projects.html" class="cta-button">View All Projects</a>
+      <a href="projects/projects.html" class="cta-button hover-button">View All Projects</a>
     </section>
 
     <section id="playground" class="section dark">
@@ -165,15 +171,16 @@
       <div class="playground-container">
         <p>Try some interactive demos of my work:</p>
         <div class="playground-options">
-          <div class="playground-item" data-demo="matrix">
+
+          <div class="playground-item hover-button" data-demo="matrix">
             <h3>Matrix Rain</h3>
             <p>Interactive version of the background effect</p>
           </div>
-          <div class="playground-item" data-demo="sort">
+          <div class="playground-item hover-button" data-demo="sort">
             <h3>Test Project 2</h3>
             <p>Nothing Real</p>
           </div>
-          <div class="playground-item" data-demo="game">
+          <div class="playground-item hover-button" data-demo="game">
             <h3>Mini Game</h3>
             <p>Test Project made with Godot</p>
           </div>
@@ -189,8 +196,7 @@
         <h2 class="section-title"></h2>
         <div class="contact-container">
           <p class="quote">
-            “In a world of zeros and ones, be the glitch.”
-          </p>
+            “In a world of zeros and ones, be the glitch.” </p>
           <p class="quote">
             — Anonymous
           </p>
@@ -198,7 +204,7 @@
 
         <!-- <p>I'm currently looking for internship opportunities and interesting projects to collaborate on. Feel free to -->
         <!-- reach out!</p> -->
-        <a href="mailto:aggelosk.chatzopoulos@gmail.com" class="cta-button">Get in touch</a>
+        <a href="mailto:aggelosk.chatzopoulos@gmail.com" class="cta-button hover-button">Get in touch</a>
         <div class="social-links">
           <a href="https://github.com/aggeloschat" target="_blank"><i class="fab fa-github"></i></a>
           <a href="https://www.linkedin.com/in/aggeloschat" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -218,7 +224,17 @@
     <p>© <span id="year"></span> All Rights Reserved</p>
   </footer>
 
+<audio id="bg-music" loop>
+  <source src="songs/mainsong.mp3" type="audio/mp3" />
+  Your browser does not support the audio tag.
+</audio>
+<audio id="hover-sound" preload="auto">
+  <source src="songs/hover.mp3" type="audio/mp3">
+</audio>
+
   <script src="scripts/script.js"></script>
+  <script src="scripts/music.js"></script>
+  <script src="scripts/hover.js"></script>
 </body>
 
 </html>
