@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="el">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Άγγελος Κ. Χατζόπουλος</title>
-  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
@@ -30,13 +30,13 @@
       <canvas id="matrixCanvas"></canvas>
       <div class="hero-content">
         <br><br><br><br>
-        <h1 class="typewriter">Άγγελος Χατζόπουλος</h1>
+        <h1 class="typewriter">Άγγελος Κ. Χατζόπουλος</h1>
         <h2>Μηχανικός Λογισμικού & Υπολογιστών</h2>
         <div class="console-effect">
           <span class="prompt">> </span>
-          <span class="command">npm start --πάθος --δημιουργικότητα</span>
+          <span class="command">npm start --passion --creativity</span>
         </div>
-        <a href="#projects" class="cta-button">Δείτε τη Δουλειά Μου</a>
+        <a href="#projects" class="cta-button">View My Work</a>
       </div>
       <div class="scroll-hint">
         <i class="fas fa-chevron-down"></i>
@@ -44,19 +44,21 @@
     </section>
 
     <section id="about" class="section">
-      <h2 class="section-title"><span class="highlight">01.</span> Σχετικά με εμένα</h2>
+      <h2 class="section-title"><span class="highlight">001.</span> About Me</h2>
       <div class="about-grid">
         <div class="about-text">
           <p>Καλωσήρθατε! Είμαι ο Άγγελος, 23 χρονών φοιτητής Πληροφορικής και Μηχανικών Υπολογιστών στο Πανεπιστήμιο
             Ιωαννίνων.</p>
-          <p>Η πάθηση μου βρίσκεται στη μηχανική λογισμικού, όπου απολαμβάνω να μετατρέπω πολύπλοκα προβλήματα σε κομψές
-            λύσεις. Εξειδικεύομαι στη διασταύρωση τεχνολογίας και δημιουργικότητας.</p>
-          <p>Όταν δεν προγραμματίζω, μπορείτε να με βρείτε να εξερευνώ την ανάπτυξη παιχνιδιών, να συνεισφέρω σε έργα
+          <p>Το πάθος μου βρίσκεται στο Software Engineering, όπου απολαμβάνω να μετατρέπω πολύπλοκα προβλήματα σε κομψές λύσεις.
+          Εξειδικεύομαι στο συνδυασμό τεχνολογίας και δημιουργικότητας.</p>
+          <p>Όταν δεν προγραμματίζω, μαρέσει να εξερευνώ την ανάπτυξη παιχνιδιών, να συνεισφέρω σε έργα
             ανοιχτού κώδικα ή να μαθαίνω νέες τεχνολογίες.</p>
         </div>
         <div class="about-image">
           <div class="avatar-container">
-            <div class="avatar"></div>
+            <div class="avatar">
+              <img src="images/profile_pic.JPEG" alt="profile pic" class=" profile-icon">
+            </div>
             <div class="tech-icons">
               <i class="fab fa-java" title="Java"></i>
               <i class="fab fa-python" title="Python"></i>
@@ -67,7 +69,21 @@
             </div>
           </div>
         </div>
+        <div class="stats">
+          <div>
+            <span class="half-transparent">ΠΡΟΣΩΠΙΚΕΣ ΜΕΤΡΗΣΕΙΣ:</span>
+          </div>
+          <div class="stat">
+            <span class="number half-transparent">> 10K+</span>
+            <span class="label half-transparent"> Γραμμές κώδικα</span>
+          </div>
+          <div class="stat">
+            <span class="number half-transparent">> 0+</span>
+            <span class="label half-transparent"> Ολοκληρωμένα Project</span>
+          </div>
+        </div>
       </div>
+
     </section>
 
     <section id="skills" class="section dark">
@@ -106,69 +122,103 @@
     <section id="projects" class="section">
       <h2 class="section-title"><span class="highlight">03.</span> Επιλεγμένα Projects</h2>
       <div class="projects-grid">
+        <!-- Project cards will go here -->
+
+<!-- Card example: -->
+        <!-- <div class="project-card"> -->
+        <!--   <div class="project-header"> -->
+        <!--     <h3>Algorithm Visualizer</h3> -->
+        <!--     <div class="project-links"> -->
+        <!--       <a href="#"><i class="fab fa-github"></i></a> -->
+        <!--       <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+        <!--     </div> -->
+        <!--   </div> -->
+        <!--   <p>Interactive visualization tool for common algorithms (sorting, pathfinding) built with JavaScript.</p> -->
+        <!--   <div class="project-tech"> -->
+        <!--     <span>JavaScript</span> -->
+        <!--     <span>HTML5 Canvas</span> -->
+        <!--   </div> -->
+        <!-- </div> -->
+
         <div class="project-card">
-          <div class="project-header">
-            <h3>Algorithm Visualizer</h3>
-            <div class="project-links">
-              <a href="#"><i class="fab fa-github"></i></a>
-              <a href="#"><i class="fas fa-external-link-alt"></i></a>
-            </div>
-          </div>
-          <p>Εργαλείο οπτικοποίησης αλγορίθμων (ταξινόμησης, εύρεσης διαδρομών) με JavaScript.</p>
-          <div class="project-tech">
-            <span>JavaScript</span>
-            <span>HTML5 Canvas</span>
+        <div class="project-header">
+          <h3>Test Project</h3>
+          <div class="project-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
           </div>
         </div>
+        <p>Just testing project-cards</p>
+        <div class="project-tech">
+          <span>Python</span>
+          <span>Godot</span>
+        </div>
+         </div> 
 
-        <!-- Περισσότερα project cards -->
+        <!-- More project cards -->
       </div>
-      <a href="/projects/" class="cta-button">Όλα τα Projects</a>
+      <a href="projects/project.html" class="cta-button">Όλα τα Projects</a>
     </section>
 
     <section id="playground" class="section dark">
-      <h2 class="section-title"><span class="highlight">04.</span> Coding Playground</h2>
+      <h2 class="section-title"><span class="highlight">100.</span> Coding Playground</h2>
       <div class="playground-container">
-        <p>Δοκιμάστε διαδραστικά demos από τη δουλειά μου:</p>
+        <p>Try some interactive demos of my work:</p>
         <div class="playground-options">
           <div class="playground-item" data-demo="matrix">
             <h3>Matrix Rain</h3>
-            <p>Διαδραστική έκδοση του εφέ φόντου</p>
+            <p>Interactive version of the background effect</p>
           </div>
           <div class="playground-item" data-demo="sort">
-            <h3>Sorting Visualizer</h3>
-            <p>Οπτικοποίηση αλγορίθμων ταξινόμησης</p>
+            <h3>Test Project 2</h3>
+            <p>Nothing Real</p>
           </div>
           <div class="playground-item" data-demo="game">
             <h3>Mini Game</h3>
-            <p>Ένα απλό παιχνίδι demo με Godot</p>
+            <p>Test Project made with Godot</p>
           </div>
         </div>
       </div>
     </section>
 
     <section id="contact" class="section">
-      <h2 class="section-title"><span class="highlight">05.</span> Επικοινωνία</h2>
+
+
+      <h2 class="section-title"><span class="highlight"></span></h2>
       <div class="contact-container">
-        <p>Αναζητώ ευκαιρίες για πρακτική άσκηση και ενδιαφέροντα projects για συνεργασία. Είμαι ανοιχτός σε προτάσεις!
-        </p>
-        <a href="mailto:your.email@example.com" class="cta-button">Πείτε Γεια</a>
+        <h2 class="section-title"></h2>
+        <div class="contact-container">
+          <p class="quote">
+            “In a world of zeros and ones, be the glitch.”
+          </p>
+          <p class="quote">
+            — Anonymous
+          </p>
+        </div>
+
+        <!-- <p>I'm currently looking for internship opportunities and interesting projects to collaborate on. Feel free to -->
+        <!-- reach out!</p> -->
+        <a href="mailto:aggelosk.chatzopoulos@gmail.com" class="cta-button">Get in touch</a>
         <div class="social-links">
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/aggeloschat" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/aggeloschat" target="_blank"><i class="fab fa-linkedin"></i></a>
           <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-itch-io"></i></a>
+          <!-- <a href="#"><i class="fab fa-itch-io"></i></a> -->
         </div>
       </div>
     </section>
+
+    <section>
+    </section>
+
   </main>
 
   <footer>
-    <p>Σχεδιασμένο & Δημιουργημένο από Άγγελο Κωνσταντίνο Χατζόπουλο</p>
-    <p>© <span id="year"></span> Όλα τα Δικαιώματα Κατοχυρωμένα</p>
+    <p>Designed & Built by Aggelos Konstantinos Chatzopoulos</p>
+    <p>© <span id="year"></span> All Rights Reserved</p>
   </footer>
 
-  <script src="../scripts/script.js"></script>
+  <script src="scripts/script.js"></script>
 </body>
 
 </html>
