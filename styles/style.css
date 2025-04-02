@@ -529,7 +529,7 @@ footer {
 
 
 #sound-toggle {
-  /* position: fixed; */
+  position: fixed;
   bottom: 1.25rem;       /* 20px → 1.25rem */
   left: 1.25rem;        /* 20px → 1.25rem */
   z-index: 999;
