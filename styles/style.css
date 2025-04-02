@@ -296,7 +296,7 @@ nav a:hover::after {
     color: var(--primary);
     font-size: 0.9rem;
     /* position: relative; */
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .bubble {
