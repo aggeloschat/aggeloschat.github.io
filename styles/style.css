@@ -288,7 +288,7 @@ nav a:hover::after {
     gap: 1rem;
 }
 
-.bubble-musi {
+.bubble-music {
     display: fixed;
     /* padding: 0.5rem 1rem; */
     background-color: rgba(100, 255, 218, 0.1);
