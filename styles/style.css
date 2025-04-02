@@ -289,14 +289,14 @@ nav a:hover::after {
 }
 
 .bubble-music {
-    display: fixed;
+    /* display: fixed; */
     /* padding: 0.5rem 1rem; */
     background-color: rgba(100, 255, 218, 0.1);
     border-radius: 20px;
     color: var(--primary);
     font-size: 0.9rem;
     /* position: relative; */
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .bubble {
@@ -529,15 +529,15 @@ footer {
 
 
 #sound-toggle {
-  position: fixed;
+  /* position: fixed; */
   bottom: 1.25rem;       /* 20px → 1.25rem */
   left: 1.25rem;        /* 20px → 1.25rem */
   z-index: 999;
   padding: 0.625rem 0.9375rem;  /* 10px → 0.625rem, 15px → 0.9375rem */
-  border: none;
-  border-radius: 0.625rem;      /* 10px → 0.625rem */
-  background-color: #111;
-  color: #fff;
+  /* border: none; */
+  /* border-radius: 0.625rem;      /* 10px → 0.625rem */ */
+  /* background-color: #111; */
+  /* color: #fff; */
   cursor: pointer;
   opacity: 0.5;
   transition: opacity 0.3s ease;
